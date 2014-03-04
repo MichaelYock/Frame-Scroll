@@ -23,9 +23,9 @@ fbf.injectControls = function() {
     */
     var controls = document.createElement('controls_html');
     // Really basic controls to get started.
-    controls.innerHTML = "<div class='ytb-button' style=\"color: #757575; margin-top:6px;\"><a href=\"javascript: fbf.prevFrame()\" style=\"color: #757575; margin-left:5px;\">prev</a>"
+    controls.innerHTML = "<div class='ytb-button' style=\"color: #939393; margin-top:6px;\"><a href=\"javascript: fbf.prevFrame()\" style=\"color: #939393; margin-left:5px;\">prev</a>"
         + "/"
-        + "<a href=\"javascript: fbf.nextFrame()\" style=\"color: #757575\">next</a></div>"
+        + "<a href=\"javascript: fbf.nextFrame()\" style=\"color: #939393\">next</a></div>"
     var player_bar = document.getElementsByClassName("html5-player-chrome");
     var html5player = player_bar[0];
     html5player.appendChild(controls)
