@@ -21,12 +21,14 @@ fbf.injectControls = function() {
     /*
     Injects extra player controls into the page.
     */
+    var controls = document.createElement('controls_html');
     // Really basic controls to get started.
-    controls_html = "(<a href=\"javascript: fbf.prevFrame()\" style=\"color: red\">prev</a>"
+    controls.innerHTML = "<div class='ytb-button' tabindex='6000'><a href=\"javascript: fbf.prevFrame()\" style=\"color: red\">prev</a>"
         + "/"
-        + "<a href=\"javascript: fbf.nextFrame()\" style=\"color: red\">next</a>)"
-    title_element = document.getElementById("watch-headline-title")
-    title_element.innerHTML = controls_html + title_element.innerHTML
+        + "<a href=\"javascript: fbf.nextFrame()\" style=\"color: red\">next</a></div>"
+    var player_bar = document.getElementsByClassName("html5-player-chrome");
+    var html5player = player_bar[0];
+    html5player.appendChild(controls)
 }
 
 fbf.injectControls()
