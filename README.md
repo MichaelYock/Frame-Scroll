@@ -17,6 +17,15 @@ How it works
 `Frame Scroll` uses Google Chrome's content scripts feature to add additional
 behavour to the YouTube player.
 
+
+To Do
+-----
+
+local icon
+arrows
+smoother & continuous scrolling
+iframes support
+
 License
 -------
 
