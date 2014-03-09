@@ -22,9 +22,13 @@ To Do
 -----
 
 local icon
+
 arrows
+
 smoother & continuous scrolling
+
 iframes support
+
 
 License
 -------
