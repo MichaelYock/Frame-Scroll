@@ -25,9 +25,11 @@ fs.frameScroll = function() {
 	if(fs.frameScrollOn){
 		fs.frameScrollOn = false;
 		document.getElementsByTagName('body')[0].className = document.getElementsByTagName('body')[0].className.replace( /(?:^|\s)no-scroll(?!\S)/g , '' );
+		document.getElementById("frame-button").src = "http://www.iconsdb.com/icons/preview/gray/film-s.png";
 	}else if(!fs.frameScrollOn){
 		fs.frameScrollOn = true;
 		document.getElementsByTagName('body')[0].className += ' no-scroll';
+		document.getElementById("frame-button").src = "http://www.iconsdb.com/icons/preview/red/film-s.png";
 	}
 }		
 
@@ -64,7 +66,7 @@ fs.userMouse = function(flage){
 fs.injectControls = function() {
     var controls = document.createElement('controls_html');
     controls.innerHTML = "<div class='ytb-button' style=\"float:right; color: #939393;\"><a href=\"javascript: fs.prevFrame()\" style=\"color: #939393; margin-left:5px; text-decoration:none;\">< </a>"
-        + "<img id='frame-button' src='http://www.iconsdb.com/icons/preview/gray/film-xxl.png' style='width:15px; height:12.5px; margin-top:7px; cursor:pointer;'>" /*temporary src link*/
+        + "<img id='frame-button' src='http://www.iconsdb.com/icons/preview/gray/film-s.png' style='width:15px; height:12.5px; margin-top:7px; cursor:pointer;'>" /*temporary src link*/
         + "<a href=\"javascript: fs.nextFrame()\" style=\"color: #939393; margin-right:5px; text-decoration:none;\"> ></a></div>"
     var html5player = document.getElementsByClassName("html5-player-chrome")[0];
     html5player.appendChild(controls);
