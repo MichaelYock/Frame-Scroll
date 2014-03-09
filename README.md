@@ -25,6 +25,8 @@ local icon
 
 arrows
 
+hover bubble
+
 smoother & continuous scrolling
 
 iframes support
