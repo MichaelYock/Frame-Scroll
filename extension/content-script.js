@@ -1,5 +1,5 @@
 /*
-Injects frame-by-frame.js into YouTube page.
+Injects frame-scroll.js into YouTube page.
 
 Content scripts are executed in an isolated environment, so to manipulate the player
 need to execute script into the page.
@@ -10,7 +10,7 @@ https://developer.chrome.com/extensions/content_scripts.html#execution-environme
 */
 
 var s = document.createElement('script');
-s.src = chrome.extension.getURL("frame-by-frame.js");
+s.src = chrome.extension.getURL("frame-scroll.js");
 s.onload = function() {
     this.parentNode.removeChild(this);
 };
