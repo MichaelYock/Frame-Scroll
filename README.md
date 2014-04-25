@@ -2,7 +2,9 @@ Scroll Frame based on Frame by Frame
 ==============
 
 
-Experimental Google Chrome Extension to add frame by frame playback to YouTube. Use mouse scroll wheel or touchpad to scroll through frames. Unobstructive UI.
+Experimental Google Chrome Extension to add frame by frame playback to YouTube with unintrusive UI. 
+
+Use mouse scroll wheel or touchpad to scroll through frames.
 
 
 
@@ -18,29 +20,12 @@ How it works
 behavour to the YouTube player.
 
 
-To Do
------
-
-local icon
-
-arrows
-
-hover bubble
-
-smoother & continuous scrolling
-
-iframes support
-
 
 License
 -------
 
 MIT
 
-Contributions
--------------
-
-Very much welcomed!
 
 Resources
 ---------
