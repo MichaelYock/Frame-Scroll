@@ -1,6 +1,6 @@
 fs = {};
 
-fs.FRAMES_PER_SECOND = 24;
+fs.FRAMES_PER_SECOND = 30;
 fs.PLAYER_ID = "movie_player";
 fs.button = document.getElementById("frame-button")
 fs.frameScrollOn = false;
