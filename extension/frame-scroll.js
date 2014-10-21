@@ -47,6 +47,19 @@ fs.scrollFunc = function(e){
     document.addEventListener('DOMMouseScroll',fs.scrollFunc,false);
 }
 
+fs.hotkeyFunc = function(e){
+        var direct=0;
+    e=e || window.onkeydown;
+    if(e.keyCode == 188){
+        fs.prevFrame();
+    }
+    if(e.keyCode == 190){
+        fs.nextFrame();
+    }
+}
+
+document.onkeydown = fs.hotkeyFunc;
+
 document.onmousewheel = fs.scrollFunc;
 
 fs.userMouse = function(flage){
