@@ -1,19 +1,19 @@
 {
-    "manifest_version": 2,
-    "name": "Frame Scroll",
-    "version": "0.1",
-    "description": "Adds unintrusive UI for frame by frame replay of youtube videos",
-    "icons": {
-        "48": "icon-48.png",
-        "128": "icon-128.png"
-    },
-    "author": "Calum J. Eadie",
-    "content_scripts": [
-        {
-            "matches": ["http://www.youtube.com/watch*", "https://www.youtube.com/watch*"],
-            "css": [],
-            "js": ["content-script.js"]
-        }
-    ],
-    "web_accessible_resources": ["frame-scroll.js"]
+   "author": "Michael Yockney",
+   "content_scripts": [ {
+      "css": [  ],
+      "js": [ "content-script.js" ],
+      "matches": [ "http://www.youtube.com/watch*", "https://www.youtube.com/watch*" ]
+   } ],
+   "description": "Adds unobtrusive UI for frame by frame replay of Youtube videos",
+   "icons": {
+      "128": "icon-128.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu/6NyZdVivussr2Xzb+mWd0CeyG26osVTh11Rvxxujn95OyyHSswLryvh1n5Z961aMeKN9UVWI+QSDyl3JpsOcO9R+TsrSEJSuQNvhwDfSAD8XWlkX7UjQDRmOCimwMKbf7qYA5DJgxxWgtO15HpRB/YaL94phHDLo6yU6YxSL6UdbVe+X4/8l7pEtTI5bMKSIFJRgqOJFDR6N84eI8wKnmBjhMe2tRQIC6FTC/j7okam8yzkSbhYpiyxEkAp/Iqpyxwb9mQo7QM7F9wl5ILc2AHfwGCtiLVxTwOiiPFrmp9ihaFxNoSTFWb4Y8f6Ye/Fd4KfnY9GWAp4q+sSW+uBQIDAQAB",
+   "manifest_version": 2,
+   "name": "Frame Scroll for Youtube",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.3",
+   "web_accessible_resources": [ "frame-scroll.js", "film-gray.png", "film-red.png" ]
 }
