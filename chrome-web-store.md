@@ -4,10 +4,11 @@ Chrome Web Store Entry
 Description
 -----------
 
-Experimental Google Chrome Extension to add frame by frame playback to YouTube.
+Adds unobtrusive UI for frame by frame replay of Youtube videos
+Simple extension adds frame by frame playback to YouTube with unobtrusive UI and scrolling. 
 
-Currently only supports some videos, e.g. http://www.youtube.com/watch?v=97-NclfkuM0.
+Use mouse scroll wheel or touchpad, simple UI buttons, or < and > hotkeys to scroll through frames.
 
-This is an open source project. Feedback and contributions are very welcome.
+Does not work in embedded iframes. 
 
-Hosted at: https://github.com/CalumJEadie/frame-by-frame.
+0.1.3 - Added hotkeys, < and >, as requested from feedback
