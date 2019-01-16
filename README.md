@@ -1,6 +1,8 @@
 Frame Scroll
 ============
 
+##Retired
+
 
 Adds unobtrusive UI for frame by frame replay of Youtube videos
 
